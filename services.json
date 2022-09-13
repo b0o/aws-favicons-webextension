@@ -1,0 +1,818 @@
+{
+  "console.aws.amazon.com/cloudformation": {
+    "icon": "icon/5d3629a64564e611bbeae9b3045be424-e9ebf1d2d9d9c14a684cec1c80e127eb.svg",
+    "id": "cfo"
+  },
+  "console.aws.amazon.com/datapipeline": {
+    "icon": "icon/95687afb5d9a2a9fa39038f991640b0c-2b29867d47c91f568b49e99b86f30a56.svg",
+    "id": "dp"
+  },
+  "console.aws.amazon.com/iam": {
+    "icon": "icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg",
+    "id": "iam"
+  },
+  "lightsail.aws.amazon.com/ls": {
+    "icon": "icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg",
+    "id": "lightsail"
+  },
+  "console.aws.amazon.com/neptune": {
+    "icon": "icon/5060341c21f82c70e928bceed3d45419-c17cc9858b04ee9a1abf0b612247f67f.svg",
+    "id": "neptune"
+  },
+  "console.aws.amazon.com/s3": {
+    "icon": "icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg",
+    "id": "s3"
+  },
+  "console.aws.amazon.com/secretsmanager": {
+    "icon": "icon/8915d768b4680de51126e0bf60a2a5d7-9ce11337c80efcb3442238d27794ee30.svg",
+    "id": "secretsmanager"
+  },
+  "console.aws.amazon.com/support": {
+    "icon": "icon/434990c8a25d2be94863561ae98bd682-56e2a04c8228085bcd5d2a39a35cf0d9.svg",
+    "id": "s"
+  },
+  "console.aws.amazon.com/comprehend": {
+    "icon": "icon/482863db6bbcbe5d42b2c38fc881497d-595c830f25109d745525de43d97fe7a9.svg",
+    "id": "comprehend"
+  },
+  "console.aws.amazon.com/iotroborunner": {
+    "icon": "icon/e324ad8ed03e3a7b3b98cf21cfdaadbb-d7e444eecef1543a3301f6858f76c8e8.svg",
+    "id": "b10"
+  },
+  "console.aws.amazon.com/docdb": {
+    "icon": "icon/aa6e97e79849eb5f00ba2aed4a094ff5-85776d0e063cd7194c095591777e17e9.svg",
+    "id": "docdb"
+  },
+  "console.aws.amazon.com/glue": {
+    "icon": "icon/1ed4de8986cf6e4a68d5a18c135d36f2-83f0853380b5ba846a691333dfd4d3ba.svg",
+    "id": "glue"
+  },
+  "console.aws.amazon.com/iot": {
+    "icon": "icon/97c209ca505f2958db30a42135afab5c-e87a3a6af0fa6e7b59029cb17597d326.svg",
+    "id": "iot"
+  },
+  "console.aws.amazon.com/iottwinmaker": {
+    "icon": "icon/e1778dc97d846ad2c4285c57466b38d4-c0f812c89e212541aa7f2fd005ecb26a.svg",
+    "id": "iot-twinmaker"
+  },
+  "console.aws.amazon.com/lambda": {
+    "icon": "icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg",
+    "id": "lam"
+  },
+  "console.aws.amazon.com/m2": {
+    "icon": "icon/de05930dd46a984ca32aad9feac718e8-e36b49290b8f9b727525350b31d90f6c.svg",
+    "id": "supernova"
+  },
+  "console.aws.amazon.com/mgn": {
+    "icon": "icon/a5ffe5487f62ef75d8e5cf78c18525a5-d4867f9d4adcd749f0c5aff987232847.svg",
+    "id": "mgn"
+  },
+  "console.aws.amazon.com/dataexchange": {
+    "icon": "icon/87bf81e4c8cbeb11c00fa4836e65e7d4-38b71496b8400bf103429e2108a23934.svg",
+    "id": "dataexchange"
+  },
+  "console.aws.amazon.com/machinelearning": {
+    "icon": "icon/0e6395c16cfb11934509421d009b1b1b-79563225605793d61116ff56b80b6f66.svg",
+    "id": "ml"
+  },
+  "console.aws.amazon.com/guardduty": {
+    "icon": "icon/3d24fd7adfd7b875b35d7c65717053ec-b542cbdbe19324db9581dcf5558b2b77.svg",
+    "id": "guardduty"
+  },
+  "console.aws.amazon.com/lex": {
+    "icon": "icon/b067b3d3054d8868c950e1946300a3f4-7d762d8739de54214018a7d757540c79.svg",
+    "id": "lex"
+  },
+  "console.aws.amazon.com/pinpoint": {
+    "icon": "icon/pinpoint-8648bb76cb416ccb1450946e936d1094.svg",
+    "id": "pinpoint"
+  },
+  "console.aws.amazon.com/events": {
+    "icon": "icon/16908b0605f2645dfcb4c3a8d248cef3-8fdd092f1116685eeb75b950acb85987.svg",
+    "id": "events"
+  },
+  "console.aws.amazon.com/ram": {
+    "icon": "icon/4641999a7679fcaef2df0e26d11e3c72-b664e6a363ea2ad1b434eb8525e02e77.svg",
+    "id": "ram"
+  },
+  "console.aws.amazon.com/sagemaker": {
+    "icon": "icon/0c8d8b2a870bf0792528dc54c41799f1-eff89633572cc66bc69c8bed5885bc73.svg",
+    "id": "sagemaker"
+  },
+  "console.aws.amazon.com/mediaconnect": {
+    "icon": "icon/565a71e200b4c4cc0d8c9cc41f6057fd-68409f271f563781e9ff620e3e3b9b95.svg",
+    "id": "mediaconnect"
+  },
+  "console.aws.amazon.com/lookoutmetrics": {
+    "icon": "icon/poirot-b105578204a268663164a5facbfd04d5.svg",
+    "id": "poirot"
+  },
+  "console.aws.amazon.com/lakeformation": {
+    "icon": "icon/38d6a77f9e8487e5551c5248662353a7-6f1c3ad4ec3cadb88cea24f1aabe39cf.svg",
+    "id": "lakeformation"
+  },
+  "console.aws.amazon.com/globalaccelerator": {
+    "icon": "icon/84f2861fc6ad8707385b731297675055-4bd7304a9b7c77757b2c019bd10ac242.svg",
+    "id": "globalaccelerator"
+  },
+  "console.aws.amazon.com/serverlessrepo": {
+    "icon": "icon/901aea6aa1385e8dedb9e28d05d44668-6bbe4e13588800be3557840fd32e16e1.svg",
+    "id": "serverlessrepo"
+  },
+  "console.aws.amazon.com/forecast": {
+    "icon": "icon/d4e677bdb96f3e0b37b3beb2967d170f-20463bce0cbfdbcd4f8da17e82a35103.svg",
+    "id": "forecast"
+  },
+  "console.aws.amazon.com/panorama": {
+    "icon": "icon/omni-1b40b829ae15eae7454ffbdf940b96b5.svg",
+    "id": "omni"
+  },
+  "console.aws.amazon.com/application-cost-profiler": {
+    "icon": "icon/2a9f708a9849ca56a428967dc6781ceb-af6a3f71be0a6a19599298b442bb67ef.svg",
+    "id": "application-cost-profiler"
+  },
+  "console.aws.amazon.com/mediatailor": {
+    "icon": "icon/7a749b4dedc5e96555aacf9ca1184d74-7d67256c41f44fe86854c4acf0da628f.svg",
+    "id": "mediatailor"
+  },
+  "console.aws.amazon.com/route53": {
+    "icon": "icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg",
+    "id": "r53"
+  },
+  "console.aws.amazon.com/mediapackage": {
+    "icon": "icon/4077abd3524fcf578abb766cf0cf7061-647d905ad0987689c43fb1b2d4f0a936.svg",
+    "id": "mediapackage"
+  },
+  "console.aws.amazon.com/cloudmap": {
+    "icon": "icon/0888974475efed202c0b09605f1030cd-b9a9806adda2a739718f43d29869370f.svg",
+    "id": "cloudmap"
+  },
+  "console.aws.amazon.com/athena": {
+    "icon": "icon/0454aa97682235df3ed1a3456bc86e62-690ff61a3c9cabacf2d3d79e64e3a8a4.svg",
+    "id": "athena"
+  },
+  "console.aws.amazon.com/sumerianv2": {
+    "icon": "icon/174c4816bfa0d6d15000da2cbbd45dca-b8de7f50383d6b8076fc35064d95f284.svg",
+    "id": "sumerian"
+  },
+  "console.aws.amazon.com/devicedefender": {
+    "icon": "icon/42e9b51cc63d085a0b45d1b7e1c5f195-6dab572eb1db16b26ee98f1001f04e97.svg",
+    "id": "devicedefender"
+  },
+  "console.aws.amazon.com/opsworks": {
+    "icon": "icon/000bf750a30b41ad7f961dad430d990a-e125b72dd40ec593174aa08ef2f50f49.svg",
+    "id": "ops"
+  },
+  "console.aws.amazon.com/freertos": {
+    "icon": "icon/c9d65ba2183fcac7337f7b3855aa1953-540418fb20869a61840a62cac1c5b612.svg",
+    "id": "freertos"
+  },
+  "console.aws.amazon.com/lookoutvision": {
+    "icon": "icon/lyra-981be6c6c0f2b91b7e28ae4f9633510f.svg",
+    "id": "lyra"
+  },
+  "console.aws.amazon.com/finspace": {
+    "icon": "icon/habanero-f7959476a3288de5335cc385b6fb35b4.svg",
+    "id": "habanero"
+  },
+  "console.aws.amazon.com/codesuite": {
+    "icon": "icon/b291609a77359753e9634a9886941d16-c66ffca8d44a017992d0b670866fc14f.svg",
+    "id": "codeartifact"
+  },
+  "console.aws.amazon.com/billingconductor": {
+    "icon": "icon/c0e9fa38aafa698f926d7a371e219f4c-3deee6800a1b04be9b962596a5d411c4.svg",
+    "id": "billingconductor"
+  },
+  "console.aws.amazon.com/workmail": {
+    "icon": "icon/f31e337d2c94a2a6c53573498711661d-b8dd48707f5044db0452d68ece75073f.svg",
+    "id": "wkm"
+  },
+  "console.aws.amazon.com/iotanalytics": {
+    "icon": "icon/178f2dfcdf16268079d63e748221ab34-75dee8142202d1ab1ff532c9ee667974.svg",
+    "id": "iotanalytics"
+  },
+  "console.aws.amazon.com/connect": {
+    "icon": "icon/b640a0ce465fa2a4150c36b305c1c11b-9a3445ba7c2cee763dd15773ddc2cbfa.svg",
+    "id": "connect"
+  },
+  "console.aws.amazon.com/rosa": {
+    "icon": "icon/f6c2547c39848e2caf690641863a0463-48673d60d69a76c40ff4c9421ee3faa5.svg",
+    "id": "rosa"
+  },
+  "console.aws.amazon.com/systems-manager": {
+    "icon": "icon/de8e21b60c1c6af28b5898206446c5d5-4fdc0b94619dc6dd9466276c0a6ddb71.svg",
+    "id": "appconfig"
+  },
+  "console.aws.amazon.com/ses": {
+    "icon": "icon/f2b32bda85a5a4a613eb47fb01c57ce3-2b4a0b6e3c7d785e7e0d22f5d540dce9.svg",
+    "id": "ses"
+  },
+  "console.aws.amazon.com/amazon-mq": {
+    "icon": "icon/fbb6dfa8b3977184f170cc09442110d6-d925e664173507ede09f372672e53578.svg",
+    "id": "amazonmq"
+  },
+  "console.aws.amazon.com/deeplens": {
+    "icon": "icon/e86fa86dcace2b4fb9a086824d27465b-88623f7dca4773f0975fdbe4c5512353.svg",
+    "id": "deeplens"
+  },
+  "console.aws.amazon.com/gamesparks": {
+    "icon": "icon/eb1ecfbea3db5591c0c2507ef1e03bb9-217e36f6b9411c7e7da81ba98fc856eb.svg",
+    "id": "gamesparks"
+  },
+  "console.aws.amazon.com/directoryservicev2": {
+    "icon": "icon/b410f5e2f0000a534e3cc915139e6b53-d10eb3311d6c3acdca6b8b284e90bb0d.svg",
+    "id": "ds"
+  },
+  "console.aws.amazon.com/dynamodbv2": {
+    "icon": "icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg",
+    "id": "dynamodbv2"
+  },
+  "console.aws.amazon.com/appflow": {
+    "icon": "icon/763b2619b3459f034461d9417fba44d2-622106c0d4d58048b7e2ffa2bef3ff11.svg",
+    "id": "appflow"
+  },
+  "console.aws.amazon.com/trustedadvisor": {
+    "icon": "icon/fec8f2a3f2e808ccb17c4d278b4fa469-8cfd22457dc442d9d951175754b6b2e1.svg",
+    "id": "ta"
+  },
+  "console.aws.amazon.com/config": {
+    "icon": "icon/011134986548f3458aa3e7e2a7fceb8d-61e2ad36eb2acba35da09e890ced6904.svg",
+    "id": "cfg"
+  },
+  "console.aws.amazon.com/resiliencehub": {
+    "icon": "icon/digito-888832eee6c027fb10a35811d2d75628.svg",
+    "id": "digito"
+  },
+  "console.aws.amazon.com/rds": {
+    "icon": "icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg",
+    "id": "rds"
+  },
+  "console.aws.amazon.com/swf": {
+    "icon": "icon/a0dc603e6e626df5c709da881fd1b9a7-b81a255cd22d2aa9087aed8ea35861c1.svg",
+    "id": "swf"
+  },
+  "console.aws.amazon.com/macie": {
+    "icon": "icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg",
+    "id": "macie"
+  },
+  "console.aws.amazon.com/appsync": {
+    "icon": "icon/e7b8f8b9ecd08d72230d043d9ece0a53-94bfcda2029215ab7135f16f4a252607.svg",
+    "id": "appsync"
+  },
+  "console.aws.amazon.com/xray": {
+    "icon": "icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg",
+    "id": "xray"
+  },
+  "console.aws.amazon.com/acm": {
+    "icon": "icon/02b55e4f52388520bfe11f959f836e68-b8cdde73b02af863b91a2296bbd10b4c.svg",
+    "id": "acm"
+  },
+  "console.aws.amazon.com/eks": {
+    "icon": "icon/dca66d38fd916317687e1390a420c3fc-bcaecc0c3e268821d570a17049e38cc4.svg",
+    "id": "eks"
+  },
+  "console.aws.amazon.com/cloudfront": {
+    "icon": "icon/4200ac8906c9a841a229ed9e5008a533-465d196059bdeeb0ffcb07ebe5f79b28.svg",
+    "id": "cfr"
+  },
+  "console.aws.amazon.com/kinesis": {
+    "icon": "icon/988287f7a1eb966ffc4e19bdbdeec7c3-a2004c84c8d3476ac6ad6485f44e9d1b.svg",
+    "id": "ki"
+  },
+  "console.aws.amazon.com/iotsitewise": {
+    "icon": "icon/0fb6b3218ce915c8f9a8a1daa95f9aca-ba570f012439d25278e5f04ed2ed404e.svg",
+    "id": "iotsitewise"
+  },
+  "console.aws.amazon.com/workspaces-web": {
+    "icon": "icon/0896deef1bb2b68f858e6729c5957195-18d824eb1931822d3b3ef7169e74fa53.svg",
+    "id": "workspaces-web"
+  },
+  "console.aws.amazon.com/keyspaces": {
+    "icon": "icon/2434c04cf58734cb3e5b7b7ee179f190-220f62aea4489b3dc353a233ec0ae2df.svg",
+    "id": "keyspaces"
+  },
+  "console.aws.amazon.com/frauddetector": {
+    "icon": "icon/a110c1a24b24a302787ce77229d40b27-c9939a5a9b7b28ba05f942fadbd4a4d5.svg",
+    "id": "frauddetector"
+  },
+  "console.aws.amazon.com/worklink": {
+    "icon": "icon/11ad0419a3e9a7bfe055db85cac14047-6db778dc72d75e16d777de570f7cf0cf.svg",
+    "id": "worklink"
+  },
+  "console.aws.amazon.com/a2i": {
+    "icon": "icon/45208ae174be1c5fc60dab194c4adce7-7c2d56ae991b87abdd5a79ea8369b4fb.svg",
+    "id": "a2i"
+  },
+  "console.aws.amazon.com/workspaces": {
+    "icon": "icon/8944f8348afe2edd651ea99be857e3f8-db6c8a302a449a02de61152d4e914b3d.svg",
+    "id": "wks"
+  },
+  "console.aws.amazon.com/elasticache": {
+    "icon": "icon/23141cdce797eeb2bd54bba0e4e0968a-0394201dd8bdedfed719d44ff6a4c69b.svg",
+    "id": "elc"
+  },
+  "chime.aws.amazon.com": {
+    "icon": "icon/0478721a7cf7b2b81641cbf75a43a3cb-f4d8b07f3982a8436685a56e2423a0a1.svg",
+    "id": "chime"
+  },
+  "console.aws.amazon.com/iotwireless": {
+    "icon": "icon/iotwireless-e87a3a6af0fa6e7b59029cb17597d326.svg",
+    "id": "iotwireless"
+  },
+  "console.aws.amazon.com/storagegateway": {
+    "icon": "icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg",
+    "id": "sg"
+  },
+  "console.aws.amazon.com/elasticmapreduce": {
+    "icon": "icon/11cfbe30ac00ef945bb5bd8aa98993b4-431a00fa0a3fe5498b8c01ec091c65db.svg",
+    "id": "emr"
+  },
+  "console.aws.amazon.com/batch": {
+    "icon": "icon/d265aed699f7409ac0ec6fe07ee9cb11-be1feb5292957964748293bc174e1623.svg",
+    "id": "batch"
+  },
+  "console.aws.amazon.com/iotevents": {
+    "icon": "icon/259e2d1aa215e5d71eef8c8eaa6efbf9-abb9fb686a88b5b5ab16296c84e79728.svg",
+    "id": "iotevents"
+  },
+  "console.aws.amazon.com/cloudtrail": {
+    "icon": "icon/f3c91469882644ff1d9094ab7bccaebf-9973918bc85c1a1c63bf994cffdee9b7.svg",
+    "id": "ctr"
+  },
+  "console.aws.amazon.com/dynamodb": {
+    "icon": "icon/bd96e70e103d25f4057afc76f9d3d180-87862c68693445999110bbd6a467ce88.svg",
+    "id": "ddb"
+  },
+  "console.aws.amazon.com/deepracer": {
+    "icon": "icon/ce5a39f92d0ad2502aff8e91258dfc6e-00ffcdd28c67dadeb8a3a8e143cdf3dd.svg",
+    "id": "deepracer"
+  },
+  "console.aws.amazon.com/apprunner": {
+    "icon": "icon/051de32597041e41f73b97d61c67a13b-9cbdaf85e3bcf29b656fdedd8e6d1305.svg",
+    "id": "fusion"
+  },
+  "console.aws.amazon.com/billing": {
+    "icon": "icon/b7d9e68ed31698bcfe971f824ab5fd23-de388fcdf7988c4792628bc8089f788f.svg",
+    "id": "budgets"
+  },
+  "console.aws.amazon.com/polly": {
+    "icon": "icon/8ca4245f09e5a6ecf058c15cca9ac9b6-4a6ec5b037b363b8f33064d09d4f40ab.svg",
+    "id": "polly"
+  },
+  "console.aws.amazon.com/license-manager": {
+    "icon": "icon/8ccdb5f6d9a8952cc8ae97ce3f2dac29-586d250d6e6745646f38e41aed448e99.svg",
+    "id": "license-manager"
+  },
+  "console.aws.amazon.com/a4b": {
+    "icon": "icon/dda42991d4b466afefaa108c9c2f6eeb-61600b6805da2dd47d1958f4ec843186.svg",
+    "id": "a4b"
+  },
+  "console.aws.amazon.com/states": {
+    "icon": "icon/34d955a0df5f7af9c9b4e4dccb3c3564-b81a255cd22d2aa9087aed8ea35861c1.svg",
+    "id": "states"
+  },
+  "console.aws.amazon.com/greengrass": {
+    "icon": "icon/67bcb9695330ca0f2437abb36fc54103-1b5211836d3aa117a28ccf8ca3982b97.svg",
+    "id": "greengrass"
+  },
+  "console.aws.amazon.com/redshiftv2": {
+    "icon": "icon/33b2042a5120c531aab0d921c3d3686c-d3e9e06b23c57a3260ad218d52391ad3.svg",
+    "id": "rs"
+  },
+  "console.aws.amazon.com/comprehendmedical": {
+    "icon": "icon/7661a97333cc7b7df29451547cd16846-1ac4ac1d6d6d96ee7cbb66af154f978b.svg",
+    "id": "comprehendmedical"
+  },
+  "console.aws.amazon.com/managedblockchain": {
+    "icon": "icon/81c091051125a938cdde1f5373a79752-966e30ef2cc020d4ff953dfaf3b813dc.svg",
+    "id": "managedblockchain"
+  },
+  "console.aws.amazon.com/deepcomposer": {
+    "icon": "icon/c64127df6f8d2f1709ff22bb4e72f9da-67454e7d22f3284e522392c22b3fce04.svg",
+    "id": "deepcomposer"
+  },
+  "console.aws.amazon.com/wafv2": {
+    "icon": "icon/bf19fa027c5a9d181dc72fd77bc4acdc-c8d9ea3e4aa8cea0b1562cd0474b51b2.svg",
+    "id": "firewall-manager"
+  },
+  "quicksight.aws.amazon.com": {
+    "icon": "icon/ca51fb32b9ada19604fe8d4c13809710-a3a147ad5b919f7e4970c3e09326da12.svg",
+    "id": "qs"
+  },
+  "console.aws.amazon.com/wellarchitected": {
+    "icon": "icon/f8cb5f109111d16645dd95da5a83dc86-fd913977dfdcaefdc9857e0389230ee2.svg",
+    "id": "wellarchitected"
+  },
+  "console.aws.amazon.com/kendra": {
+    "icon": "icon/a9ab7ffabee2fd02cfeb90fa2c01a7fd-721a0b96fe52c46786b1ff711999c730.svg",
+    "id": "kendra"
+  },
+  "console.aws.amazon.com/ivs": {
+    "icon": "icon/873852e38ceabd55753ff7992c2a1ccd-6cf19d298ba6db110b5cb04627137a20.svg",
+    "id": "ivs"
+  },
+  "console.aws.amazon.com/healthlake": {
+    "icon": "icon/colossus-fc7a939c03f53768cd5a4cb8906e0095.svg",
+    "id": "colossus"
+  },
+  "console.aws.amazon.com/vpc": {
+    "icon": "icon/network-firewall-fb0c5e22982c055e188b507f09d11d4c.svg",
+    "id": "network-firewall"
+  },
+  "console.aws.amazon.com/iotdm": {
+    "icon": "icon/5559879a9af5845faacf9b443c26dd13-25b88e75b0c9c32b135b3220d5ebde76.svg",
+    "id": "iotdm"
+  },
+  "console.aws.amazon.com/cloudsearch": {
+    "icon": "icon/57bf09e9dd70880afbdbc4005beb4285-096bae18fcc843c63b0416921fd87436.svg",
+    "id": "cs"
+  },
+  "console.aws.amazon.com/iotv2": {
+    "icon": "icon/f4eaa0ce448e026ecaaabd9bf4ecd3d4-e87a3a6af0fa6e7b59029cb17597d326.svg",
+    "id": "iotv2"
+  },
+  "console.aws.amazon.com/elastictranscoder": {
+    "icon": "icon/68d5d1f1f90a79bfcc1a02a14f58e17f-5b3aa1e6e482d700e26197791f8ad1b0.svg",
+    "id": "ets"
+  },
+  "console.aws.amazon.com/lexv2": {
+    "icon": "icon/16660b27a03cc547adc54a269bc4a69e-7d762d8739de54214018a7d757540c79.svg",
+    "id": "lexv2"
+  },
+  "console.aws.amazon.com/managedservices": {
+    "icon": "icon/fd16e436798538092d6458b0b6e0e904-b56baa54eb850f8e031400e85a6614c1.svg",
+    "id": "managedservices"
+  },
+  "console.aws.amazon.com/migrationhub": {
+    "icon": "icon/ab18b3e58a3b1bb5106ced208a8bd460-6dd2e427405699968f2b9e29b6529bea.svg",
+    "id": "flux"
+  },
+  "console.aws.amazon.com/backup": {
+    "icon": "icon/402051f4be0cc3aad33bcf3ac3d6532b-a9a8a0faf2e131a8dd2d144cabe4debd.svg",
+    "id": "backup"
+  },
+  "console.aws.amazon.com/snowfamily": {
+    "icon": "icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg",
+    "id": "snowfamily"
+  },
+  "console.aws.amazon.com/braket": {
+    "icon": "icon/5dcf8b3fd3fff6d26ffee039f6890300-a4c2920924dbc72926908eece15ec590.svg",
+    "id": "braket"
+  },
+  "console.aws.amazon.com/cost-management": {
+    "icon": "icon/2342d9ccd7d52448de0ef187d97c575c-dcd1cc59e36f7f41eaa88abd8c8bcc03.svg",
+    "id": "cost-management"
+  },
+  "console.aws.amazon.com/dms": {
+    "icon": "icon/a6e05afdf596a8e7fd8df7479d1919dc-57da5406e0ad1dbefa3c0ba9c170a898.svg",
+    "id": "dms"
+  },
+  "console.aws.amazon.com/transcribe": {
+    "icon": "icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg",
+    "id": "transcribe"
+  },
+  "console.aws.amazon.com/artifact": {
+    "icon": "icon/8e5b948a454515dbabfc7eb718daa52f-372c78df1a1ec7d37b235b48fed4c3c2.svg",
+    "id": "artifact"
+  },
+  "console.aws.amazon.com/cloudshell": {
+    "icon": "icon/scallop-6873a958bea41d7b1b44f6cf0bd429c2.svg",
+    "id": "scallop"
+  },
+  "console.aws.amazon.com/esv3": {
+    "icon": "icon/18897dcfce6a4e7ae63a3baeed443c48-7724698ecde95174b630cef10d8335c2.svg",
+    "id": "es"
+  },
+  "console.aws.amazon.com/groundstation": {
+    "icon": "icon/5b04848fc41724b2fff0cef3593d3b31-d46968b0f77ffd1eeea7a70ce681c2f9.svg",
+    "id": "groundstation"
+  },
+  "console.aws.amazon.com/devicefarm": {
+    "icon": "icon/39e1071caf585a5cead5f46574cc7641-e1dff4e8ac2eab88b8f03a2e8b3de681.svg",
+    "id": "df"
+  },
+  "console.aws.amazon.com/nimblestudio": {
+    "icon": "icon/83ad24f82f862d3a6ddfaae692a3e09f-668ba69172eafebf5366602337f36669.svg",
+    "id": "madstudio"
+  },
+  "console.aws.amazon.com/singlesignon": {
+    "icon": "icon/b5164fbdf0a4526876438e688f5e4130-8f4c3d179652d29309b38012bd392a52.svg",
+    "id": "sso"
+  },
+  "console.aws.amazon.com/signer": {
+    "icon": "icon/signer-38333f6a7731797b22186a97f1aeebf5.svg",
+    "id": "signer"
+  },
+  "console.aws.amazon.com/cognito": {
+    "icon": "icon/7c8353710f9831898e50921c0879977a-393ba9c98bdcec2ebfd74a7cbac07d88.svg",
+    "id": "c"
+  },
+  "console.aws.amazon.com/resource-groups": {
+    "icon": "icon/9d0ab658d6a74be651de4f37a28630f0-570c32c7680f5343d686bfcf91e11b61.svg",
+    "id": "resource-groups"
+  },
+  "console.aws.amazon.com/honeycode": {
+    "icon": "icon/abcb2e8a49945c7ecce7313628de0a65-fc03fc1478a99c5677f778134f6e530a.svg",
+    "id": "honeycode"
+  },
+  "iq.aws.amazon.com": {
+    "icon": "icon/795237fd9d107e63cd19b0db0f2fba2f-da09af0434cc7c75a75ccbc599e19018.svg",
+    "id": "iq"
+  },
+  "console.aws.amazon.com/devops-guru": {
+    "icon": "icon/capstone-682fe232dcd673b44891064c049bd910.svg",
+    "id": "capstone"
+  },
+  "console.aws.amazon.com/fis": {
+    "icon": "icon/valkyrie-fd78b539f98a06e2dcc4e58f37c680ad.svg",
+    "id": "valkyrie"
+  },
+  "console.aws.amazon.com/apigateway": {
+    "icon": "icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg",
+    "id": "ag"
+  },
+  "console.aws.amazon.com/lookoutequipment": {
+    "icon": "icon/hogun-421e576f8c1c577a602812151c8cc134.svg",
+    "id": "hogun"
+  },
+  "console.aws.amazon.com/grafana": {
+    "icon": "icon/grafana-ea3defec485d2881c153d160ba82ce72.svg",
+    "id": "grafana"
+  },
+  "console.aws.amazon.com/appmesh": {
+    "icon": "icon/b0efe76e23d3bde478d55212e8b0af22-54c6ae562017fb852580ab35dc0f3ff9.svg",
+    "id": "appmesh"
+  },
+  "console.aws.amazon.com/cloudwatch": {
+    "icon": "icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg",
+    "id": "cw"
+  },
+  "console.aws.amazon.com/prometheus": {
+    "icon": "icon/stealfire-38b5dc1352bd06d3cec427f445e96a74.svg",
+    "id": "stealfire"
+  },
+  "console.aws.amazon.com/fsx": {
+    "icon": "icon/fea0543b0b4b9d4c240c6219de0db41c-23eb23b7479038064ce8f040d747df83.svg",
+    "id": "fsx"
+  },
+  "console.aws.amazon.com/kinesisvideo": {
+    "icon": "icon/018939c8c177f3847e934587b0852eb0-bd836609bc4cb0ac28504ecbf0178e22.svg",
+    "id": "kinesisvideo"
+  },
+  "console.aws.amazon.com/amplify": {
+    "icon": "icon/9da5a168cf8194c8ee5ed192a443d563-674375b53bc8ae94f48cfdb5c81e8363.svg",
+    "id": "amplify"
+  },
+  "console.aws.amazon.com/medialive": {
+    "icon": "icon/60c7d91a76abb6b37ffb1350754b66a0-60231c5e064d7c3fc8c6cdd0ac4c6955.svg",
+    "id": "medialive"
+  },
+  "console.aws.amazon.com/kms": {
+    "icon": "icon/4951a865fa68d758b42a9cef50ae168a-88cc389f0bffefa8034ab2023186acde.svg",
+    "id": "kms"
+  },
+  "console.aws.amazon.com/cloudhsm": {
+    "icon": "icon/5e80c1f0dc6f783dc096e17513fd3984-2576791e7baa133f119841b87c3544d4.svg",
+    "id": "cloudhsm"
+  },
+  "console.aws.amazon.com/codeguru": {
+    "icon": "icon/6d242eed35ddf4227f5a48d37aa1572c-aaf3bc173e4fcb1edb453464bf101599.svg",
+    "id": "codeguru"
+  },
+  "console.aws.amazon.com/directconnect": {
+    "icon": "icon/24b920b445b46e72e311c31e25a653ad-5bd5fe5b3577c07aac0327ac77e7158e.svg",
+    "id": "dc"
+  },
+  "console.aws.amazon.com/auditmanager": {
+    "icon": "icon/216304eb42158c57d4ec762a309c7df6-e0893f8c90b207de27e5bc820ecb2318.svg",
+    "id": "auditmanager"
+  },
+  "console.aws.amazon.com/importexport": {
+    "icon": "icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg",
+    "id": "imex"
+  },
+  "console.aws.amazon.com/ec2": {
+    "icon": "icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg",
+    "id": "ec2"
+  },
+  "console.aws.amazon.com/awsautoscaling": {
+    "icon": "icon/8c4ff0bc6eb31f0dcf6f6765b4259429-8b46577d889db4c0abac90ec6961f188.svg",
+    "id": "awsautoscaling"
+  },
+  "console.aws.amazon.com/monitron": {
+    "icon": "icon/thor-4b0e415482ab1d941dfbda637e4b55eb.svg",
+    "id": "thor"
+  },
+  "console.aws.amazon.com/chatbot": {
+    "icon": "icon/00f2b1ead3a0990b818517356cb40280-fbccda6ecf0aa8ed0b6fb8a3fbc24f9f.svg",
+    "id": "chatbot"
+  },
+  "console.aws.amazon.com/outposts": {
+    "icon": "icon/a9f49db14fbca9e8da922af641b00039-76d783f16197f52fd838821b7143ee9e.svg",
+    "id": "outposts"
+  },
+  "console.aws.amazon.com/gamelift": {
+    "icon": "icon/d7271b0e449d2ba150b1e9aac7f20776-48f8a6117f5fa4d408069fbce91b4d8a.svg",
+    "id": "gal"
+  },
+  "console.aws.amazon.com/appstream2": {
+    "icon": "icon/a0ffb9e7fe4139fc285daa7409719a8a-bc844d8c8587a57947fffdf2bb686526.svg",
+    "id": "appstream2"
+  },
+  "health.aws.amazon.com/health": {
+    "icon": "icon/4295ed0c9cbd0dc7e7476c91e7be83c0-02a1f2d9e668ba57a90fa52b7ab6d631.svg",
+    "id": "phd"
+  },
+  "console.aws.amazon.com/timestream": {
+    "icon": "icon/c53ad7b1c55df3505ed16a5d5714f0fc-b51aeef7545e7be066afc0bdeb77dfba.svg",
+    "id": "timestream"
+  },
+  "console.aws.amazon.com/zocalo": {
+    "icon": "icon/1faa8ed08a91646930551ce93f92c854-916d8d9bcb1e5bd2af93348e898056d4.svg",
+    "id": "z"
+  },
+  "console.aws.amazon.com/iotfleetwise": {
+    "icon": "icon/f6108089fe232c964235dac210aab04e-17f00a6fc14ce60251ce74517a253546.svg",
+    "id": "iotfleetwise"
+  },
+  "console.aws.amazon.com/discovery": {
+    "icon": "icon/54818b05d116eadc7f67517a3a6e4b33-dc7f10ab989d8a9db8a63056ced7ea4c.svg",
+    "id": "discovery"
+  },
+  "console.aws.amazon.com/elemental-appliances-software": {
+    "icon": "icon/0fba5d3f2f7fceddb1ec7acbd8cb3440-6cef6056df218c24c4a5bdd892381df7.svg",
+    "id": "aesop"
+  },
+  "console.aws.amazon.com/sns": {
+    "icon": "icon/6002c6713f40e8a35d365605542e72b0-03c2386fb392e0d689e45d9b4f683a8d.svg",
+    "id": "sns"
+  },
+  "console.aws.amazon.com/elasticbeanstalk": {
+    "icon": "icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg",
+    "id": "eb"
+  },
+  "console.aws.amazon.com/mwaa": {
+    "icon": "icon/pinwheel-8e5556eddda3135e1970fa648ffa3c10.svg",
+    "id": "pinwheel"
+  },
+  "console.aws.amazon.com/msk": {
+    "icon": "icon/68b38c3a81772f89eec6834dd51be0f6-09238be90746d8ec9b91c98a3287e91c.svg",
+    "id": "msk"
+  },
+  "console.aws.amazon.com/proton": {
+    "icon": "icon/arrow-90be37226bb10f4382c472615e1d16cd.svg",
+    "id": "arrow"
+  },
+  "console.aws.amazon.com/translate": {
+    "icon": "icon/fc46e26a907870744758b76166150f62-76c22bfd03882310f44da5a6a9590864.svg",
+    "id": "translate"
+  },
+  "console.aws.amazon.com/ecs": {
+    "icon": "icon/2eb2930111864beeb409e946751215b1-3ecb316865dc77cffc9cd77eed455da2.svg",
+    "id": "ecs"
+  },
+  "console.aws.amazon.com/ecr": {
+    "icon": "icon/de7db04805a33606a40b897578543648-c0174badf433f1e0148e43426ae8e43a.svg",
+    "id": "ecr"
+  },
+  "console.aws.amazon.com/servicecatalog": {
+    "icon": "icon/3ce147e72f59b6dda4fe73822844d181-570c32c7680f5343d686bfcf91e11b61.svg",
+    "id": "sc"
+  },
+  "console.aws.amazon.com/ipam": {
+    "icon": "icon/d2ae649dbfd6075170a486bacee7faf9-4d9c246d4283a8c3150cf0aa442dec10.svg",
+    "id": "ipam"
+  },
+  "console.aws.amazon.com/memorydb": {
+    "icon": "icon/81a0d909617532abb8bdbfe7a517d028-b3a9357a9df5342f954767efd721ef13.svg",
+    "id": "aws-memorydb"
+  },
+  "console.aws.amazon.com/drs": {
+    "icon": "icon/2a3b4bb3d8bee59009b8da70135c9637-5b0b138d0fcc329c01f1f8b841ec313b.svg",
+    "id": "drs"
+  },
+  "console.aws.amazon.com/marketplace": {
+    "icon": "icon/bc5986ebbf4dde661f229fd527ad82f4-f17167bb69305a462c78c3087221e815.svg",
+    "id": "marketplace"
+  },
+  "console.aws.amazon.com/controltower": {
+    "icon": "icon/87d9120e27c5f075016d654e5f5ed5fb-256f00da2d724a534765701a37ae1fa5.svg",
+    "id": "controltower"
+  },
+  "console.aws.amazon.com/personalize": {
+    "icon": "icon/e609437d68f98af5e45b41ed6ffd20f7-aaeb03fe377cb2ce99ce6b432eb28b3a.svg",
+    "id": "personalize"
+  },
+  "console.aws.amazon.com/cloud9": {
+    "icon": "icon/1a4ec26b6d36503c5b00ae9769d17687-647b27ff27670c1627a1e146f9c557ab.svg",
+    "id": "cloud9"
+  },
+  "console.aws.amazon.com/detective": {
+    "icon": "icon/4af05d61b7a4d1e3dfdb929e5fcdf91f-55cc043acd89ed2b9f76dadfbee4a006.svg",
+    "id": "detective"
+  },
+  "console.aws.amazon.com/transfer": {
+    "icon": "icon/84a0f3455dcca894ace136be62efa292-8f85f711c127875782ebb7e8e39ac621.svg",
+    "id": "transfer"
+  },
+  "console.aws.amazon.com/textract": {
+    "icon": "icon/0121e707af85a4b5d571de33104d5ac1-b655f8b189e18898d77c2e95627a589b.svg",
+    "id": "textract"
+  },
+  "console.aws.amazon.com/activate": {
+    "icon": "icon/d4ee0fbbeb7ffd4fd7a7d477a7ecd922-f6a5867a7a453ed45953dff57879b8b6.svg",
+    "id": "activate"
+  },
+  "console.aws.amazon.com/location": {
+    "icon": "icon/waypoint-6c1d2320a20dd76867d0420ce2708023.svg",
+    "id": "waypoint"
+  },
+  "console.aws.amazon.com/databrew": {
+    "icon": "icon/elixir-2d19db829f6b67060e76d000e31fdc4d.svg",
+    "id": "elixir"
+  },
+  "console.aws.amazon.com/mediastore": {
+    "icon": "icon/bd1d80bda8755eb0916f8869c4f4dd29-74944f51dacc8b930846de632c12ea19.svg",
+    "id": "mediastore"
+  },
+  "console.aws.amazon.com/iot1click": {
+    "icon": "icon/a8384c104ced62cfd82d04f1fe5f290b-43e5f6a480f20440b6ce40e20fac34bd.svg",
+    "id": "iot1click"
+  },
+  "console.aws.amazon.com/securityhub": {
+    "icon": "icon/92c91c100a8046a3d959e049a57db0f1-d28639ea30ae50d43171326a9d5b30e5.svg",
+    "id": "securityhub"
+  },
+  "console.aws.amazon.com/imagebuilder": {
+    "icon": "icon/fb1591f31b4ba22b7a0361a723ad19c1-0cb1efcffe89ea01904bca34486dbe0a.svg",
+    "id": "imagebuilder"
+  },
+  "console.aws.amazon.com/sqs": {
+    "icon": "icon/252a8156d87a671bfeb32a02f200406f-c7d7df285c32f703a63b1d3c7f9679fb.svg",
+    "id": "sqs"
+  },
+  "console.aws.amazon.com/compute-optimizer": {
+    "icon": "icon/9a2e6ec676386cc13f0bcd9c2e9efa1a-ea5d08b7e15abe74d5750036a744b023.svg",
+    "id": "compute-optimizer"
+  },
+  "console.aws.amazon.com/rekognition": {
+    "icon": "icon/b7cb336b98f3c4db02fb13d4d671df5e-37a81abbdae00bac12e1ffcd0776093b.svg",
+    "id": "rekognition"
+  },
+  "console.aws.amazon.com/glacier": {
+    "icon": "icon/4326f5fa12ca85c921c7d3278cfd68d5-f62e082cf1b2c8f4ecefebfa1237fb33.svg",
+    "id": "gl"
+  },
+  "console.aws.amazon.com/launchwizard": {
+    "icon": "icon/6e9e16955bd76c1d3a9996e0d6d3ad15-04cfc8c62f597690680d948b366980cf.svg",
+    "id": "launchwizard"
+  },
+  "console.aws.amazon.com/mediaconvert": {
+    "icon": "icon/6504dca33006ddabb02017e39abc15b7-964cd2f4aa024daa9b3f8662b2128eaa.svg",
+    "id": "mediaconvert"
+  },
+  "console.aws.amazon.com/servicequotas": {
+    "icon": "icon/a22f9f155a576a08f0f9810afaf54538-210331d740c65a191f186532d206fcd2.svg",
+    "id": "servicequotas"
+  },
+  "console.aws.amazon.com/inspector": {
+    "icon": "icon/8e96c1fb87ac069c2a39f1ed61b10428-15c34272092c17421a1a7c63e1b37afc.svg",
+    "id": "ins"
+  },
+  "console.aws.amazon.com/robomaker": {
+    "icon": "icon/a37e939beedeee34652174d167c7ea7d-a1ebe00ccc2ec3c9857b316e36227df8.svg",
+    "id": "robomaker"
+  },
+  "console.aws.amazon.com/qldb": {
+    "icon": "icon/6a3e7424bdd5a6382be70859074a4612-81e11447263f68d901422c32a63b4300.svg",
+    "id": "qldb"
+  },
+  "console.aws.amazon.com/efs": {
+    "icon": "icon/21bf745da611cadf93e64da3c3e1c8a5-cb081e79694e868a2309e47696addf01.svg",
+    "id": "efs"
+  },
+  "console.aws.amazon.com/ec2globalview": {
+    "icon": "icon/07b9ff1cdb54742f1cd1c975d63969c3-7d586ea82f792b61a8c87de60565133d.svg",
+    "id": "ec2globalview"
+  },
+  "console.aws.amazon.com/datasync": {
+    "icon": "icon/a919a25c09b5e0e533111577995cff53-cbdfb0576b864a4e29d346f83bf64ee9.svg",
+    "id": "datasync"
+  },
+  "console.aws.amazon.com/route53recovery": {
+    "icon": "icon/f94832a5cd428328fb4b06a5f6e983fe-13339007ce0bb9bc15cf7d6920122717.svg",
+    "id": "meridian"
+  },
+  "console.aws.amazon.com/private-networks": {
+    "icon": "icon/602b89e89b75b25683c4edf62b5fbbc7-74471104303e6e1e2980458944abccf6.svg",
+    "id": "e5g"
+  },
+  "console.aws.amazon.com/organizations": {
+    "icon": "icon/d9811f03b461a380c0d6b4a497dbac37-d4ca55ffc43c470a5476f26523ffe69d.svg",
+    "id": "organizations"
+  },
+  "console.aws.amazon.com/kinesisanalytics": {
+    "icon": "icon/031da086669bb38569db3349a8e6cf4b-bdb8078901837b17b8ade45410c8c961.svg",
+    "id": "kia"
+  }
+}
