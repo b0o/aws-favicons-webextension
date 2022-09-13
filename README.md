@@ -1,8 +1,10 @@
-# AWS Favicons
+<p align="center"><img src="https://raw.githubusercontent.com/b0o/aws-favicons-webextension/main/extension-icon.svg" width="100"/></p>
 
-Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox addon fixes that by setting the favicon to the appropriate one for the current service. You can get it on `addons.mozilla.org` (soon, not uploaded yet) or build from source.
+# AWS Favicons WebExtension [![version](https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver)](https://github.com/b0o/aws-favicons-webextension/releases) [![license: MIT](https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green)](https://mit-license.org)
 
-It's a complete rewrite of [JB4GDI/awsfaviconupdater](https://github.com/JB4GDI/awsfaviconupdater/) with much simpler are more robust code.
+Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service. You can get it on `addons.mozilla.org` (soon, not uploaded yet) or build from source.
+
+It's a complete rewrite of [JB4GDI/awsfaviconupdater](https://github.com/JB4GDI/awsfaviconupdater/) with much simpler code.
 
 ## Building
 
