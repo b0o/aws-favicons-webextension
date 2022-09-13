@@ -20,6 +20,7 @@ To install it into a production version of Firefox, you will first need to sign 
 This repository includes a script to update the service definitions and download the service icons. It has a few dependencies:
 
 - a recent version of Bash
+- [sed](https://www.gnu.org/software/sed/)
 - [curl](https://curl.se/)
 - [jq](https://github.com/stedolan/jq/)
 - [pup](https://github.com/ericchiang/pup)
@@ -30,13 +31,19 @@ The page containing this metadata is only available when logged in, but the meta
 
 Before you run the script, you will need to log in to an AWS account and follow these steps:
 
-1. Open the devtools (`Ctrl+Shift+I` or inspect element)
-2. Navigate to the Network tab
-3. Find any request to `<region>.console.aws.amazon.com` which has status code `200`
-4. Select the request, then in the `Headers` tab, find the `Cookie` field under `Request Headers`
-5. Copy the cookie
+1. Go to your AWS console home page (URL should be `https://<region>.console.aws.amazon.com/console/home?region=<region>#`)
+2. Open the devtools (`Ctrl+Shift+I` or inspect element)
+3. Navigate to the Network panel
+4. Search for `console.aws.amazon.com/console/home?region` and select the first matching requst with status code `200`
+5. Right click on the request and select `Copy Value > Copy as cURL`
 
-Then, invoke the `update.sh` script, passing the cookie as the first argument: `./update.sh "<cookie>"`.
+To run the script:
+
+1. `cd` into the root of this repo
+2. Paste the cURL command into your terminal but do not run it
+3. Replace the first word of the command, `curl`, with `./update.sh`
+4. Press return to run the script. The `./services.json` file and the icons in `./icons/` will be updated
+
 After the script finishes, you should log out of your AWS session and log back in to invalidate the session.
 
 ## License
