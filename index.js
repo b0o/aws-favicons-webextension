@@ -18,7 +18,7 @@ const awsBaseURL = (u) => {
 };
 
 const getAwsServices = async () => {
-  const url = chrome.extension.getURL("/services.json");
+  const url = chrome.runtime.getURL("/services.json");
   return (await fetch(url)).json();
 };
 
@@ -28,7 +28,7 @@ const getAwsServiceForURL = (services, url) => {
 };
 
 const getLocalFaviconURL = (service) =>
-  chrome.extension.getURL(`/icons/${service.id}.svg`);
+  chrome.runtime.getURL(`/icons/${service.id}.svg`);
 
 const setFavicon = async (href) => {
   let link = document.querySelector("link[rel=icon]");
