@@ -5,9 +5,9 @@
   "version": "0.1.1",
   "author": "Maddison Hellstrom",
   "icons": {
-    "16": "extension-icon.svg",
-    "48": "extension-icon.svg",
-    "128": "extension-icon.svg"
+    "32": "extension-icon-32.png",
+    "64": "extension-icon-64.png",
+    "128": "extension-icon-128.png"
   },
   "content_scripts": [
     {
