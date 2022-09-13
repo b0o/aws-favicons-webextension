@@ -4,6 +4,8 @@
 
 Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service. You can get it on `addons.mozilla.org` (soon, not uploaded yet) or build from source.
 
+![Screenshot](https://user-images.githubusercontent.com/21299126/190009554-d33253d9-8b38-423e-81dd-edeb85d677a4.png)
+
 It's a complete rewrite of [JB4GDI/awsfaviconupdater](https://github.com/JB4GDI/awsfaviconupdater/) with much simpler code.
 
 ## Building
