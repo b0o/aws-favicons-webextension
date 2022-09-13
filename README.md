@@ -1,6 +1,12 @@
 <p align="center"><img src="https://raw.githubusercontent.com/b0o/aws-favicons-webextension/main/assets/extension-icon.svg" width="100"/></p>
 
-# AWS Favicons WebExtension [![version](https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver)](https://github.com/b0o/aws-favicons-webextension/releases) [![license: MIT](https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green)](https://mit-license.org) [![Mozilla Add-on](https://img.shields.io/amo/v/aws-favicons)](https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/)
+<h1 align="center">AWS Favicons WebExtension</h1>
+
+<p align="center">
+  <a href="https://github.com/b0o/aws-favicons-webextension/releases"><img alt="Version Badge" src="https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver"/></a>
+  <a href="https://mit-license.org"><img alt="License: MIT" src="https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green"/></a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/"><img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/aws-favicons"/></a>
+</p>
 
 Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service.
 
