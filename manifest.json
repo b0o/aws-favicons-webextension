@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "AWS Favicons",
   "description": "Favicons for all AWS services",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Maddison Hellstrom",
   "icons": {
     "32": "assets/extension-icon-32.png",
