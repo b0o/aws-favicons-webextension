@@ -1,8 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/b0o/aws-favicons-webextension/main/extension-icon.svg" width="100"/></p>
 
-# AWS Favicons WebExtension [![version](https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver)](https://github.com/b0o/aws-favicons-webextension/releases) [![license: MIT](https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green)](https://mit-license.org)
+# AWS Favicons WebExtension [![version](https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver)](https://github.com/b0o/aws-favicons-webextension/releases) [![license: MIT](https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green)](https://mit-license.org) [![Mozilla Add-on](https://img.shields.io/amo/v/aws-favicons)](https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/)
 
-Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service. You can get it on `addons.mozilla.org` (soon, not uploaded yet) or build from source.
+Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service.
+
+- [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/)
 
 ![Screenshot](https://user-images.githubusercontent.com/21299126/190009554-d33253d9-8b38-423e-81dd-edeb85d677a4.png)
 
