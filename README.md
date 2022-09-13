@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/b0o/aws-favicons-webextension/main/extension-icon.svg" width="100"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/b0o/aws-favicons-webextension/main/assets/extension-icon.svg" width="100"/></p>
 
 # AWS Favicons WebExtension [![version](https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver)](https://github.com/b0o/aws-favicons-webextension/releases) [![license: MIT](https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green)](https://mit-license.org) [![Mozilla Add-on](https://img.shields.io/amo/v/aws-favicons)](https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/)
 
