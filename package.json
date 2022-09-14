@@ -1,0 +1,29 @@
+{
+  "name": "aws-favicons-webextension",
+  "version": "0.1.4",
+  "type": "module",
+  "description": "WebExtension which adds favicons for all AWS services",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "globals": "^13.17.0",
+    "prettier": "2.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "web-ext build --config=web-ext-config.cjs -v",
+    "dev": "web-ext run --config=web-ext-config.cjs -v -p aws-favicons --keep-profile-changes --reload -u 'https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#'",
+    "update": "./scripts/update.sh",
+    "clean": "rm -rf ./web-ext-artifacts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0o/aws-favicons-webextension.git"
+  },
+  "author": "Maddison Hellstrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b0o/aws-favicons-webextension/issues"
+  },
+  "homepage": "https://github.com/b0o/aws-favicons-webextension#readme"
+}
