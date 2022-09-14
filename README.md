@@ -27,9 +27,9 @@ $ web-ext build --verbose
 
 To install it into a production version of Firefox, you will first need to sign the built extension using `web-ext sign` - you'll need a Mozilla developer account for this.
 
-## The `update.sh` script
+## Updating the icons and service definitions
 
-This repository includes a script to update the service definitions and download the service icons. It has a few dependencies:
+This repository includes [a script](https://github.com/b0o/aws-favicons-webextension/blob/main/scripts/update.sh) to update the service definitions and download the service icons. It has a few dependencies:
 
 - a recent version of Bash
 - [sed](https://www.gnu.org/software/sed/)
@@ -53,7 +53,7 @@ To run the script:
 
 1. `cd` into the root of this repo
 2. Paste the cURL command into your terminal but do not run it
-3. Replace the first word of the command, `curl`, with `./update.sh`
+3. Replace the first word of the command, `curl`, with `./scripts/update.sh`
 4. Press return to run the script. The `./services.json` file and the icons in `./icons/` will be updated
 
 After the script finishes, you should log out of your AWS session and log back in to invalidate the session.
