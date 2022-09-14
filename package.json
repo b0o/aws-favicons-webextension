@@ -1,6 +1,6 @@
 {
   "name": "aws-favicons-webextension",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "description": "WebExtension which adds favicons for all AWS services",
   "devDependencies": {
