@@ -13,6 +13,9 @@ export default [
         ...globals.webextensions,
       },
     },
-    rules: {},
+    rules: {
+      "prefer-const": "error",
+      "no-var": "error",
+    },
   },
 ]
