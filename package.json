@@ -11,9 +11,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "web-ext build --config=web-ext-config.cjs -v",
-    "dev": "web-ext run --config=web-ext-config.cjs -v -p aws-favicons --keep-profile-changes --reload -u 'https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#'",
+    "web-ext": "web-ext --config=web-ext-config.cjs",
+    "build": "npm run web-ext -- build --config=web-ext-config.cjs",
+    "dev": "npm run web-ext -- run -p aws-favicons --keep-profile-changes --reload -u 'https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#'",
     "update": "./scripts/update.sh",
+    "lint": "eslint . && npm run web-ext -- lint",
     "clean": "rm -rf ./web-ext-artifacts"
   },
   "repository": {
