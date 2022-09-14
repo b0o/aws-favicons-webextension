@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-basedir="$(dirname "${BASH_SOURCE[0]}")"
-services_file="$basedir/services.json"
-icons_dir="$basedir/icons"
+base_dir="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+root_dir="$(dirname "$base_dir")"
+services_file="$root_dir/services.json"
+icons_dir="$root_dir/icons"
 
 function usage() {
-  echo "usage: $0 <console_url> <-H curl_header> [-H curl_header ..]"
+  echo "usage: $0 <aws_console_url> <-H curl_header> [-H curl_header ..]"
 }
 
 if [[ $# -eq 0 ]]; then
@@ -54,19 +55,12 @@ if [[ -z "$mezz" || -z "$icon_domain" ]]; then
   exit 1
 fi
 
-node -e '
-    const { awsBaseURL } = require("./index.js");
-    const { readFileSync } = require("fs");
-    const input = readFileSync(0, "utf-8");
-    const res = JSON.parse(input).services
-      .reduce((acc, s) => (s.icon ? { ...acc, [awsBaseURL(s.url)]: { icon: s.icon, id: s.id } } : acc), {});
-    process.stdout.write(JSON.stringify(res));
-  ' <<<"$mezz" | jq >"$services_file"
+node "$base_dir/update.js" <<<"$mezz" | jq >"$services_file"
 
 echo "Updated $(basename "$services_file")"
 
-rm -vrf "$icons_dir"
-mkdir "$icons_dir"
+mkdir -p "$icons_dir"
+find "$icons_dir" -maxdepth 1 -mindepth 1 -type f -iregex '.*\.\(png\|svg\|jpg\)' -exec rm -v '{}' ';'
 
 i=0
 n="$(jq -r 'length' "$services_file")"
