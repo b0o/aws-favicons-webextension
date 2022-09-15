@@ -8,14 +8,30 @@ export default [
     files: ["**/*.js"],
     languageOptions: {
       sourceType: "module",
-      globals: {
-        ...globals.browser,
-        ...globals.webextensions,
-      },
     },
     rules: {
       "prefer-const": "error",
       "no-var": "error",
+    },
+  },
+  {
+    files: ["src/*.js"],
+    languageOptions: {
+      globals: {
+        ...globals.es2021,
+        ...globals.browser,
+        ...globals.webextensions,
+      },
+    },
+  },
+  {
+    files: ["scripts/*.js"],
+    languageOptions: {
+      globals: {
+        ...globals.es2021,
+        ...globals.builtin,
+        ...globals.nodeBuiltin,
+      },
     },
   },
 ]
