@@ -21,8 +21,9 @@ It's a complete rewrite of [JB4GDI/awsfaviconupdater](https://github.com/JB4GDI/
 To build the extension for Firefox, use [mozilla/web-ext](https://github.com/mozilla/web-ext):
 
 ```
-$ cd aws-favicons
-$ web-ext build --verbose
+$ cd aws-favicons-webextension
+$ npm install
+$ npm run build
 ```
 
 To install it into a production version of Firefox, you will first need to sign the built extension using `web-ext sign` - you'll need a Mozilla developer account for this.
