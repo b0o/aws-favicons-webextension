@@ -5,9 +5,14 @@ import { fileURLToPath } from "url"
 
 const hasArg = (a) => process.argv.includes(a)
 
-const verbose = hasArg("--verbose")
+const args = {
+  verbose: hasArg("--verbose"),
+  minify: hasArg("--minify"),
+  manifestV3: hasArg("--v3"),
+}
+
 const log = (...args) => {
-  if (verbose) {
+  if (args.verbose) {
     console.log(...args)
   }
 }
@@ -19,7 +24,7 @@ paths.rootDir = path.dirname(paths.scriptsDir)
 
 const repoPath = (...p) => path.join(paths.rootDir, ...p)
 
-paths.buildDir = repoPath("build")
+paths.buildDir = repoPath(`build/v${args.manifestV3 ? 3 : 2}`)
 paths.srcDir = repoPath("src")
 paths.assetsDir = repoPath("assets")
 paths.iconsDir = repoPath("icons")
@@ -44,7 +49,10 @@ const tryAwaitWithFallback = async (promise, fallback) => {
 }
 
 const isDir = (p) =>
-  tryAwaitWithFallback(fs.stat(p).then((s) => s.isDirectory()), false)
+  tryAwaitWithFallback(
+    fs.stat(p).then((s) => s.isDirectory()),
+    false
+  )
 
 const statFiles = async (dir, files) =>
   Object.fromEntries(
@@ -119,11 +127,20 @@ const syncDir = async (src, dest, files) => {
 
 const setupBuild = async () => {
   if (!(await exists(paths.buildDir))) {
-    await fs.mkdir(paths.buildDir)
+    await fs.mkdir(paths.buildDir, { recursive: true })
   }
   await syncDir(paths.assetsDir, path.join(paths.buildDir, "assets"))
   await syncDir(paths.iconsDir, path.join(paths.buildDir, "icons"))
-  await syncDir(paths.rootDir, paths.buildDir, ["manifest.json"])
+  const manifest = args.manifestV3 ? "manifest.v3.json" : "manifest.v2.json"
+  log(
+    "cp",
+    path.join(paths.rootDir, manifest),
+    path.join(paths.buildDir, "manifest.json")
+  )
+  await fs.cp(
+    path.join(paths.rootDir, manifest),
+    path.join(paths.buildDir, "manifest.json")
+  )
 }
 
 const build = async () => {
@@ -136,8 +153,8 @@ const build = async () => {
     platform: "browser",
     format: "cjs",
     target: "esnext",
-    logLevel: verbose ? "debug" : "info",
-    minify: hasArg("--minify"),
+    logLevel: args.verbose ? "debug" : "info",
+    minify: args.minify,
   })
 }
 

@@ -14,5 +14,9 @@ const main = async () => {
 }
 
 if (typeof window !== "undefined") {
-  window.addEventListener("load", main)
+  if (document.head) {
+    main()
+  } else {
+    window.addEventListener("load", main)
+  }
 }
