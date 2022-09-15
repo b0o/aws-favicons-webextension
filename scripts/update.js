@@ -1,4 +1,4 @@
-import { awsBaseURL } from "../index.js"
+import { awsBaseURL } from "../src/aws-favicons"
 import { readFileSync } from "fs"
 
 const input = readFileSync(0, "utf-8")

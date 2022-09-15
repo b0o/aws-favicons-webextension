@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# TODO: Migrate this script to JS
 set -euo pipefail
 
 base_dir="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
@@ -57,8 +58,6 @@ fi
 
 node "$base_dir/update.js" <<<"$mezz" | jq >"$services_file"
 
-echo "Updated $(basename "$services_file")"
-
 mkdir -p "$icons_dir"
 find "$icons_dir" -maxdepth 1 -mindepth 1 -type f -iregex '.*\.\(png\|svg\|jpg\)' -exec rm -v '{}' ';'
 
@@ -70,5 +69,3 @@ while read -r id; do
   printf '%4s/%s - %s\n' "$i" "$n" "$id"
   curl --no-progress-meter "$icon_domain/$icon" >"$icons_dir/$id.svg"
 done <<<"$(jq -r 'map(.id, .icon) | .[]' "$services_file")"
-
-echo "Updated icons"
