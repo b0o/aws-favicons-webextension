@@ -32,4 +32,5 @@ function update_version() {
 }
 
 update_version "$root_dir/package.json"
+update_version "$root_dir/package-lock.json"
 update_version "$root_dir/manifest.json"
