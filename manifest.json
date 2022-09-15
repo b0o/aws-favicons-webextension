@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "AWS Favicons",
   "description": "Favicons for all AWS services",
   "version": "0.1.5",
@@ -16,5 +16,10 @@
       "run_at": "document_start"
     }
   ],
-  "web_accessible_resources": ["icons/*", "services.json"]
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*"],
+      "matches": ["https://*.aws.amazon.com/*"]
+    }
+  ]
 }
