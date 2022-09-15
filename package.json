@@ -21,6 +21,8 @@
     "build:v2": "npm run build:esbuild:v2 && npm run build:web-ext:v2",
     "build:v3": "npm run build:esbuild:v3 && npm run build:web-ext:v3",
     "build:all": "npm run build:v2 && npm run build:v3",
+    "build:firefox": "npm run build:v2",
+    "build:chromium": "npm run build:v3",
     "lint:eslint": "eslint .",
     "lint:v2": "npm run web-ext:v2 lint",
     "lint:v3": "npm run web-ext:v3 lint",

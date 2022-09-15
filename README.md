@@ -18,15 +18,31 @@ It's a complete rewrite of [JB4GDI/awsfaviconupdater](https://github.com/JB4GDI/
 
 ## Building
 
-To build the extension for Firefox, use [mozilla/web-ext](https://github.com/mozilla/web-ext):
+### Firefox
+
+To build the extension for Firefox:
 
 ```
 $ cd aws-favicons-webextension
 $ npm install
-$ npm run build
+$ npm run build:firefox
 ```
 
+The built extension will be in `web-ext-artifacts/v2/aws_favicons-<version>.zip`. The `v2` signifies Manifest V2.
+
 To install it into a production version of Firefox, you will first need to sign the built extension using `web-ext sign` - you'll need a Mozilla developer account for this.
+
+### Chrome
+
+To build the extension for Chrome:
+
+```
+$ cd aws-favicons-webextension
+$ npm install
+$ npm run build:chromium
+```
+
+The built extension will be in `web-ext-artifacts/v3/aws_favicons-<version>.zip`. The `v3` signifies Manifest V3.
 
 ## Updating the icons and service definitions
 
