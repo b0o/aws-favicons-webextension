@@ -1,3 +1,9 @@
+## Project-specific
+.web-extension-id
+web-ext-artifacts
+build
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,vim,git,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,vim,git,node
 
@@ -251,6 +257,3 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,vim,git,node
 
-
-.web-extension-id
-web-ext-artifacts
