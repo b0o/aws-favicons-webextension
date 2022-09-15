@@ -13,10 +13,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "web-ext": "web-ext --config=web-ext-config.cjs",
-    "build": "npm run web-ext -- build",
-    "dev": "npm run web-ext -- run -p aws-favicons --keep-profile-changes --reload -u 'https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#'",
+    "build:esbuild": "node ./scripts/build.js --verbose --minify",
+    "build:web-ext": "npm run web-ext -- build",
+    "build": "npm run build:esbuild && npm run build:web-ext",
     "lint": "eslint . && npm run web-ext -- lint",
-    "clean": "rm -rf ./web-ext-artifacts",
+    "clean": "rm -rf ./web-ext-artifacts ./build",
     "update": "./scripts/update.sh",
     "version": "./scripts/version.sh"
   },
