@@ -15,20 +15,15 @@ export const awsBaseURL = (u) => {
   return `${url.hostname}${url.pathname.replace(/\/+/, "/").replace(/\/$/, "")}`
 }
 
-const getAwsServices = async () => {
-  const url = chrome.runtime.getURL("/services.json")
-  return (await fetch(url)).json()
-}
-
-const getAwsServiceForURL = (services, url) => {
+export const getAwsServiceForURL = (services, url) => {
   const bu = awsBaseURL(url)
   return services[bu]
 }
 
-const getLocalFaviconURL = (service) =>
+export const getLocalFaviconURL = (service) =>
   chrome.runtime.getURL(`/icons/${service.id}.svg`)
 
-const setFavicon = async (href) => {
+export const setFavicon = async (href) => {
   let link = document.querySelector("link[rel=icon]")
   if (link) {
     if (link.href === href) {
@@ -41,16 +36,4 @@ const setFavicon = async (href) => {
   link.type = "image/svg+xml"
   link.rel = "icon"
   link.href = href
-}
-
-const main = async () => {
-  const services = await getAwsServices()
-  const service = getAwsServiceForURL(services, window.location)
-  if (service) {
-    await setFavicon(getLocalFaviconURL(service))
-  }
-}
-
-if (typeof browser !== "undefined") {
-  main()
 }
