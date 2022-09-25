@@ -6,11 +6,13 @@
   <a href="https://github.com/b0o/aws-favicons-webextension/releases"><img alt="Version Badge" src="https://img.shields.io/github/v/tag/b0o/aws-favicons-webextension?style=flat&color=yellow&label=version&sort=semver"/></a>
   <a href="https://mit-license.org"><img alt="License: MIT" src="https://img.shields.io/github/license/b0o/aws-favicons-webextension?style=flat&color=green"/></a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/"><img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/aws-favicons"/></a>
+  <a href="https://chrome.google.com/webstore/detail/aws-favicons/hpiicbcmcbcjppjembmamenajemlanli"><img alt="Chrome Extension" src="https://img.shields.io/chrome-web-store/v/hpiicbcmcbcjppjembmamenajemlanli"/></a>
 </p>
 
 Tired of all your AWS browser tabs having the same orange cube favicon? This Firefox add-on fixes that by setting the favicon to the appropriate one for the current service.
 
 - [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/aws-favicons/)
+- [Install Chrome Extension](https://chrome.google.com/webstore/detail/aws-favicons/hpiicbcmcbcjppjembmamenajemlanli)
 
 ![Screenshot](https://user-images.githubusercontent.com/21299126/190009554-d33253d9-8b38-423e-81dd-edeb85d677a4.png)
 
