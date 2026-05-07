@@ -79,6 +79,6 @@ After the script finishes, you should log out of your AWS session and log back i
 
 ## License
 
-&copy; 2022 Maddison Hellstrom
+&copy; 2022 Maddison Cohodas
 
 MIT License
